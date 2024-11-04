@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.itim-regular {
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.interbold{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: black;
+}
+
+.interbold:hover {
+font-weight: 900;
+}
+
+.interRegular {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color : white
+}
+
+section {
+    width: 50%;
+    margin: AUTO; /*  ajustement de la marge autour de la section*/
+    height: 50vh; /* Taille en prendre en compte en pourcentage a partir de la taille de la page */
+    text-align: center; /* centrage du contenu de la section */
+}
+
+.bgPink {
+    background-color: pink;
+}
+.bgPurple {
+    background-color: purple;
+}
+
+.bgGreen {
+    background-color: green;
+}
+
+.bgYellow {
+    background-color: yellow;
+}
+
+.boite {
+    height: 80px;
+    width: 80px;
+    display: inline-block; /* Les affiches au sein de la même ligne*/
+}
+
+.borderR {
+    border-radius: 20px;
+}
+
+.borderA {
+    border-radius: 12px 30px 12px 30px ;
+}
+
+.boxes {
+height: fit-content;
+width: fit-content;
+padding: 12px 15px;
+margin: 5px;
+text-decoration: none;
+}
+
+.bouton {
+    display:block;
+   /*background-color: blue;*/
+    width: fit-content;
+    margin-bottom: 12px;
+    text-decoration: none;
+    padding: 16px 32px;
+    }
+
+    .borderSolid{
+        border: 1px solid black;
+
+    }
+
+    .borderDashed{
+        border: 5px dashed black;
+
+    }
+    .bgbordergreen{
+        background: #61FF7B;
+    }
+
+    .bgborderblue {
+        background: #1398A0;
+    }
+
+    .borderRa {
+        border-radius: 0px 32px;
+    }
+    
+    .borderbutton5 {
+        border-radius: 8px;
+    }
+   
+    .borderbutton3 {
+        border-radius: 32px;
+    }
+
+    article {
+         width: 25%;
+        height: 60vh;
+        box-shadow: 10px 5px 30px black;
+        padding: 10px;
+    }
+
+    .img {
+        align-content: center;
+    }
+
+    .btnvoyage {
+        display: block;
+        border-radius: 8px;
+        background-color: #1398A0;
+        border-radius: 8px;
+        padding: 10px;
+        color: white;
+        text-decoration: none;
+        margin-top: 5px;
+        font-family: "Inter", sans-serif;
+        width: fit-content;
+
+    }
+    .btnvoyage:hover{
+        font-weight: 900;
+        transition:  0.3s;
+        padding: 13px;
+    }
+
+    article:hover {
+    box-shadow: 10px 5px 40px black;
+    padding: 10px;
+    }
